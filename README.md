@@ -5,10 +5,20 @@ This project models the motion of a damped harmonic oscillator using numerical m
 
 The system is governed by a second-order differential equation derived from Newton’s laws. The equation is transformed into first-order equations and solved using the Euler method.
 
-## ⚙️ Method
-- Differential equations formulation
-- Numerical solution using Euler method
-- Visualization using matplotlib
+## ⚙️ Mathematical Model
+The governing equation is:
+
+m(d²x/dt²) + b(dx/dt) + kx = 0
+
+Where:
+- m = mass
+- b = damping coefficient
+- k = spring constant
+
+## 🧪 Method
+- Converted second-order ODE into first-order system
+- Applied Euler numerical method
+- Simulated motion over time
 
 ## 📊 Results
 The simulation shows how damping causes oscillatory motion to decay over time.
